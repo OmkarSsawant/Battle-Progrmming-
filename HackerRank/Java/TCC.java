@@ -24,7 +24,9 @@ public  class TCC{
 	}
 
 	public static void main(String[] args) {
-		final String dir = "/home/omkar/Documents/Programming/Battle Programming/HackerRank/Java/";
+		 String dir = "/home/omkar/Documents/Programming/Battle Programming/HackerRank/Java/";
+		//custom
+		if(arg[1]!=null || arg[1]!="") dir= arg[1];
 		try{
 		System.out.println(check(dir+"t1.txt",dir+"t2.txt"));
 		}catch(Exception e){
